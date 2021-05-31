@@ -29,7 +29,9 @@ ADD lines\
 tailwind.config.js
 
 ```bash
+mode: 'jit',
 purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
+darkMode: 'class', // or 'media' or 'class',
 ```
 
 styles/globals.css
