@@ -23,6 +23,7 @@ auto-updates as you edit the file.
 npx create-next-app --typescript
 yarn add --dev tailwindcss@latest postcss@latest autoprefixer@latest
 npx tailwindcss init -p
+npm install @heroicons/react
 ```
 
 ADD lines\
